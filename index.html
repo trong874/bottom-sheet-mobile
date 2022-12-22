@@ -1,0 +1,47 @@
+<!-- Copyright (c) 2022 Ivan Teplov -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iOS & Android Style Bottom Sheet Example</title>
+    <link rel="stylesheet" href="core/main.css">
+    <script src="core/main.js" defer></script>
+  </head>
+  <body>
+    <button type="button" data-toggle="sheet" data-target="#sheet-demo1" class="btn">Open Sheet 1</button>
+    <button type="button" data-toggle="sheet" data-target="#sheet-demo2">Open Sheet 2</button>
+    <div class="sheet" aria-hidden="true" id="sheet-demo1" data-height="80">
+      <div class="overlay"></div>
+      <div class="contents">
+        <header class="">
+          <div class="draggable-area">
+            <div class="draggable-thumb"></div>
+          </div>
+          <button class="close-sheet" type="button" title="Close the sheet">&times;</button>
+        </header>
+        <main class="body">
+          <h2>Hello, World! 1</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit explicabo vero quas eligendi, eos cupiditate sint aliquam a omnis commodi quos in libero veniam. Quidem, non a quibusdam consequuntur mollitia officia numquam sit quos dolorum quaerat reprehenderit laboriosam perspiciatis consequatur odit error dolore recusandae iste id quam magnam ut! Sint nulla minus excepturi libero officiis, deleniti, delectus obcaecati saepe natus rerum nesciunt!</p>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit explicabo vero quas eligendi, eos cupiditate sint aliquam a omnis commodi quos in libero veniam. Quidem, non a quibusdam consequuntur mollitia officia numquam sit quos dolorum quaerat reprehenderit laboriosam perspiciatis consequatur odit error dolore recusandae iste id quam magnam ut! Sint nulla minus excepturi libero officiis, deleniti, delectus obcaecati saepe natus rerum nesciunt!</p>
+        </main>
+      </div>
+    </div>
+    <div class="sheet" aria-hidden="true" id="sheet-demo2">
+      <div class="overlay"></div>
+      <div class="contents">
+        <header class="">
+          <div class="draggable-area">
+            <div class="draggable-thumb"></div>
+          </div>
+          <button class="close-sheet" type="button" title="Close the sheet">&times;</button>
+        </header>
+        <main class="body">
+          <h2>Hello, World! 2</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit explicabo vero quas eligendi, eos cupiditate sint aliquam a omnis commodi quos in libero veniam. Quidem, non a quibusdam consequuntur mollitia officia numquam sit quos dolorum quaerat reprehenderit laboriosam perspiciatis consequatur odit error dolore recusandae iste id quam magnam ut! Sint nulla minus excepturi libero officiis, deleniti, delectus obcaecati saepe natus rerum nesciunt!</p>
+        </main>
+      </div>
+    </div>
+  </body>
+</html>
